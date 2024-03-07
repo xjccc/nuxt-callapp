@@ -1,5 +1,8 @@
 <template>
-  <div className="App">
+  <div
+    className="App"
+    @click="clickToCreateInstance"
+  >
     <button
       @click="$useCallApp({ path: 'question/270839820/answer/477722658' })"
     >
@@ -10,9 +13,10 @@
 
 <script setup>
 const {$createCallApp} = useNuxtApp()
-const click = () => {
+const clickToCreateInstance = () => {
   const CallApp = $createCallApp({
     scheme: ''
   })
+  console.log(CallApp)
 }
 </script>

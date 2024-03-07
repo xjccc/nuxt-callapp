@@ -7,7 +7,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 - Description: My new Nuxt module
 -->
 
-# My Module
+# Nuxt CallApp
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -20,6 +20,7 @@ A nuxt module for [callapp-lib](https://github.com/suanmei/callapp-lib)
 
 ## Features
 
+- [] update wx support by `callapp-lib`
 
 ## Quick Setup
 
@@ -42,7 +43,24 @@ npm install --save-dev nuxt-callapp
 export default defineNuxtConfig({
   modules: [
     'nuxt-callapp'
-  ]
+  ],
+   callapp: {
+    scheme: {
+      protocol: 'zhihu',
+    },
+    intent: {
+      package: 'com.zhihu.android',
+      scheme: 'zhihu',
+    },
+    universal: {
+      host: 'oia.zhihu.com',
+      pathKey: '',
+    },
+    appstore: 'https://itunes.apple.com/cn/app/id432274380',
+    yingyongbao: '//a.app.qq.com/o/simple.jsp?pkgname=com.zhihu.android',
+    fallback: 'https://oia.zhihu.com/',
+    timeout: 2000,
+  },
 })
 ```
 

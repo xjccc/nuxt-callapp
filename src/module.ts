@@ -14,7 +14,7 @@ export default defineNuxtModule<ModuleOptions>({
   // Default configuration options of the Nuxt module
   defaults: {
     scheme: {
-      protocol: 'zhihu',
+      protocol: '',
     },
     appstore: '',
     fallback: ''
