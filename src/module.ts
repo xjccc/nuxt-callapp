@@ -1,7 +1,6 @@
 import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
 import { defu } from 'defu'
 import type { CallappOptions } from 'callapp-lib/dist/type/types'
-
 // Module options TypeScript interface definition
 export interface ModuleOptions extends CallappOptions {
 }

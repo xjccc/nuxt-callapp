@@ -1,6 +1,7 @@
-import { defineNuxtPlugin } from '#imports'
+import { defineNuxtPlugin, useRuntimeConfig } from '#imports'
 import CallApp from 'callapp-lib'
 import type { CallappConfig, CallappOptions } from 'callapp-lib/dist/type/types'
+export type * from 'callapp-lib/dist/type/types'
 
 let callApp:CallApp
 /**
