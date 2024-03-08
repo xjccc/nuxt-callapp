@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.2.0
+
+[compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.1.3...v1.2.0)
+
+### 🚀 Enhancements
+
+- Types ([9c2f96d](https://github.com/xjccc/nuxt-callapp/commit/9c2f96d))
+
+### 🌊 Types
+
+- Add plugin types ([02473ac](https://github.com/xjccc/nuxt-callapp/commit/02473ac))
+
+### ❤️ Contributors
+
+- Xjccc ([@xjccc](http://github.com/xjccc))
+
 ## v1.1.3
 
 [compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.1.2...v1.1.3)
