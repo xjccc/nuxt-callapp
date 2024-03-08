@@ -1,4 +1,4 @@
-import { defineNuxtPlugin } from '#imports'
+import { defineNuxtPlugin, useRuntimeConfig } from '#imports'
 import CallApp from 'callapp-lib'
 import type { CallappConfig, CallappOptions } from 'callapp-lib/dist/type/types'
 
@@ -42,7 +42,14 @@ export default defineNuxtPlugin({
 
 declare module '#app' {
   interface NuxtApp {
-    createCallApp (options: CallappOptions): CallApp
-    useCallApp (params: CallappConfig, callback?: () => void): void
+    $createCallApp (options: CallappOptions): CallApp
+    $useCallApp (params: CallappConfig, callback?: () => void): void
+  }
+}
+
+declare module 'vue' {
+  interface ComponentCustomProperties {
+    $createCallApp (options: CallappOptions): CallApp
+    $useCallApp (params: CallappConfig, callback?: () => void): void
   }
 }
