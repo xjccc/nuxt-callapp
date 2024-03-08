@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.3.0
+
+[compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.2.0...v1.3.0)
+
+### 🚀 Enhancements
+
+- Add vue ComponentCustomProperties ([d99a265](https://github.com/xjccc/nuxt-callapp/commit/d99a265))
+
+### ❤️ Contributors
+
+- Xjccc ([@xjccc](http://github.com/xjccc))
+
 ## v1.2.0
 
 [compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.1.3...v1.2.0)
