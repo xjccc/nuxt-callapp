@@ -26,6 +26,9 @@ export default defineNuxtModule<ModuleOptions>({
     })
 
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
-    addPlugin(resolver.resolve('./runtime/call-app.client'))
+    addPlugin({
+      src: resolver.resolve('./runtime/call-app'),
+      mode: 'client'
+    })
   }
 })

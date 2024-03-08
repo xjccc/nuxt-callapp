@@ -1,7 +1,6 @@
-import { defineNuxtPlugin, useRuntimeConfig } from '#imports'
+import { defineNuxtPlugin } from '#imports'
 import CallApp from 'callapp-lib'
 import type { CallappConfig, CallappOptions } from 'callapp-lib/dist/type/types'
-export type * from 'callapp-lib/dist/type/types'
 
 let callApp:CallApp
 /**
@@ -29,10 +28,21 @@ function useCallApp(params: CallappConfig, callback?: () => void) {
   }
   callApp.open(params)
 }
-
-export default defineNuxtPlugin(() => ({
-  provide: {
-    createCallApp,
-    useCallApp
+export default defineNuxtPlugin({
+  name: 'callapp-plugin',
+  setup() {
+    return {
+      provide: {
+        createCallApp,
+        useCallApp
+      }
+    }
   }
-}))
+})
+
+declare module '#app' {
+  interface NuxtApp {
+    createCallApp (options: CallappOptions): CallApp
+    useCallApp (params: CallappConfig, callback?: () => void): void
+  }
+}
