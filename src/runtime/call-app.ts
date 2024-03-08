@@ -13,20 +13,22 @@ function createCallApp (options: CallappOptions) {
 }
 /**
  * callapp function
- * @param params 
+ * @param config 
  * @param callback 
  */
-function useCallApp(params: CallappConfig, callback?: () => void) {
+function useCallApp(config: CallappConfig, callback?: (instance: CallApp) => void) {
   const options:CallappOptions = useRuntimeConfig().public.callapp
   if (!callApp) {
     callApp = new CallApp(options)
   }
 
-  // 当传递回调函数会覆盖默认回调
+  // 执行传入的回调
   if (callback) {
-    params.callback = callback
+    config.callback = () => {
+      callback(callApp)
+    }
   }
-  callApp.open(params)
+  callApp.open(config)
 }
 export default defineNuxtPlugin({
   name: 'callapp-plugin',
@@ -43,13 +45,13 @@ export default defineNuxtPlugin({
 declare module '#app' {
   interface NuxtApp {
     $createCallApp (options: CallappOptions): CallApp
-    $useCallApp (params: CallappConfig, callback?: () => void): void
+    $useCallApp (config: CallappConfig, callback?: (instance: CallApp) => void): void
   }
 }
 
 declare module 'vue' {
   interface ComponentCustomProperties {
     $createCallApp (options: CallappOptions): CallApp
-    $useCallApp (params: CallappConfig, callback?: () => void): void
+    $useCallApp (config: CallappConfig, callback?: (instance: CallApp) => void): void
   }
 }
