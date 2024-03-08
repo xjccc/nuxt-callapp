@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.4.0
+
+[compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.3.0...v1.4.0)
+
+### 🚀 Enhancements
+
+- Callback add instance ([c804163](https://github.com/xjccc/nuxt-callapp/commit/c804163))
+
+### ❤️ Contributors
+
+- Xjccc ([@xjccc](http://github.com/xjccc))
+
 ## v1.3.0
 
 [compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.2.0...v1.3.0)
