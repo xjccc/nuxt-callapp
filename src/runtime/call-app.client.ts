@@ -1,3 +1,4 @@
+import { defineNuxtPlugin } from '#imports'
 import CallApp from 'callapp-lib'
 import type { CallappConfig, CallappOptions } from 'callapp-lib/dist/type/types'
 
