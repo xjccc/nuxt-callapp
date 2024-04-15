@@ -1,16 +1,17 @@
 <!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Module
+- Name: Nuxt CallApp
 - Package name: nuxt-callapp
-- Description: My new Nuxt module
+- Description: A nuxt module for [callapp-lib]
 -->
 
-# Nuxt CallApp
+<p align="center">
+  <img width="180" src="./assets/callapp.svg" alt="callapp logo">
+</p>
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
+
+# Nuxt CallApp
 
 A nuxt module for [callapp-lib](https://github.com/suanmei/callapp-lib)
 
