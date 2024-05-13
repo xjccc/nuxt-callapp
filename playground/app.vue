@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-const {$createCallApp} = useNuxtApp()
+const { $createCallApp } = useNuxtApp()
 const clickToCreateInstance = () => {
   const CallApp = $createCallApp({
     scheme: ''
