@@ -2,20 +2,20 @@ export default defineNuxtConfig({
   modules: ['../src/module'],
   callapp: {
     scheme: {
-      protocol: 'zhihu',
+      protocol: 'zhihu'
     },
     intent: {
       package: 'com.zhihu.android',
-      scheme: 'zhihu',
+      scheme: 'zhihu'
     },
     universal: {
       host: 'oia.zhihu.com',
-      pathKey: '',
+      pathKey: ''
     },
     appstore: 'https://itunes.apple.com/cn/app/id432274380',
     yingyongbao: '//a.app.qq.com/o/simple.jsp?pkgname=com.zhihu.android',
     fallback: 'https://oia.zhihu.com/',
-    timeout: 2000,
+    timeout: 2000
   },
   devtools: { enabled: true }
 })

@@ -1,11 +1,11 @@
-import { defineNuxtPlugin, useRuntimeConfig } from '#imports'
 import CallApp from 'callapp-lib'
 import type { CallappConfig, CallappOptions } from 'callapp-lib/dist/type/types'
+import { defineNuxtPlugin, useRuntimeConfig } from '#imports'
 
-let callApp:CallApp
+let callApp: CallApp
 /**
  * create CallApp instance
- * @param options 
+ * @param options
  * @returns instance
  */
 function createCallApp (options: CallappOptions) {
@@ -13,11 +13,11 @@ function createCallApp (options: CallappOptions) {
 }
 /**
  * callapp function
- * @param config 
- * @param callback 
+ * @param config
+ * @param callback
  */
-function useCallApp(config: CallappConfig, callback?: (instance: CallApp) => void) {
-  const options:CallappOptions = useRuntimeConfig().public.callapp
+function useCallApp (config: CallappConfig, callback?: (instance: CallApp) => void) {
+  const options: CallappOptions = useRuntimeConfig().public.callapp
   if (!callApp) {
     callApp = new CallApp(options)
   }
@@ -32,7 +32,7 @@ function useCallApp(config: CallappConfig, callback?: (instance: CallApp) => voi
 }
 export default defineNuxtPlugin({
   name: 'callapp-plugin',
-  setup() {
+  setup () {
     return {
       provide: {
         createCallApp,
