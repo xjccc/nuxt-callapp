@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.5.0
+
+[compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.4.0...v1.5.0)
+
+### 🚀 Enhancements
+
+- Logo ([68cf205](https://github.com/xjccc/nuxt-callapp/commit/68cf205))
+
+### 🏡 Chore
+
+- Postinstall -> prepare ([18fbe6a](https://github.com/xjccc/nuxt-callapp/commit/18fbe6a))
+
+### ❤️ Contributors
+
+- Xjccc ([@xjccc](http://github.com/xjccc))
+
 ## v1.4.0
 
 [compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.3.0...v1.4.0)
