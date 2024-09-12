@@ -50,26 +50,26 @@
     }
   },
   "dependencies": {
-    "@nuxt/kit": "^3.13.0",
+    "@nuxt/kit": "^3.13.1",
     "callapp-lib": "^3.5.3",
     "defu": "^6.1.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.4.1",
-    "@commitlint/config-conventional": "^19.4.1",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@nuxt/devtools": "latest",
-    "@nuxt/eslint-config": "^0.5.5",
-    "@nuxt/module-builder": "^0.8.3",
-    "@nuxt/schema": "^3.13.0",
-    "@nuxt/test-utils": "^3.14.1",
-    "@types/node": "^20.16.4",
+    "@nuxt/eslint-config": "^0.5.7",
+    "@nuxt/module-builder": "^0.8.4",
+    "@nuxt/schema": "^3.13.1",
+    "@nuxt/test-utils": "^3.14.2",
+    "@types/node": "^20.16.5",
     "changelogen": "^0.5.5",
     "commitizen": "^4.3.0",
     "cz-git": "^1.9.4",
-    "eslint": "^9.9.1",
-    "husky": "^9.1.5",
+    "eslint": "^9.10.0",
+    "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
-    "nuxt": "^3.13.0",
+    "nuxt": "^3.13.1",
     "vitest": "^2.0.5"
   },
   "husky": {
