@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
+  devtools: { enabled: true },
   callapp: {
     scheme: {
       protocol: 'zhihu'
@@ -16,6 +17,5 @@ export default defineNuxtConfig({
     yingyongbao: '//a.app.qq.com/o/simple.jsp?pkgname=com.zhihu.android',
     fallback: 'https://oia.zhihu.com/',
     timeout: 2000
-  },
-  devtools: { enabled: true }
+  }
 })

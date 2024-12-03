@@ -33,6 +33,7 @@ export default createConfigForNuxt({
         consistent: true
       }],
       '@stylistic/space-before-function-paren': [2, 'always'],
-      '@stylistic/space-before-blocks': [2, 'always']
+      '@stylistic/space-before-blocks': [2, 'always'],
+      '@typescript-eslint/no-empty-object-type': 0
     }
   })
