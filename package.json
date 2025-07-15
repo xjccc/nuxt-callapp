@@ -50,7 +50,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/kit": "^3.17.7",
+    "@nuxt/kit": "^4.0.0",
     "callapp-lib": "^3.5.3",
     "defu": "^6.1.4"
   },
@@ -60,7 +60,7 @@
     "@nuxt/devtools": "^2.6.2",
     "@nuxt/eslint-config": "^1.5.2",
     "@nuxt/module-builder": "^1.0.1",
-    "@nuxt/schema": "^3.17.7",
+    "@nuxt/schema": "^4.0.0",
     "@nuxt/test-utils": "^3.19.2",
     "@types/node": "^22.16.3",
     "changelogen": "^0.6.2",
@@ -69,7 +69,7 @@
     "eslint": "^9.31.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
-    "nuxt": "^3.17.7",
+    "nuxt": "^4.0.0",
     "vitest": "^3.2.4"
   },
   "husky": {
