@@ -9,6 +9,26 @@
 
 - V1.5.1 ([df41519](https://github.com/xjccc/nuxt-callapp/commit/df41519))
 
+### 🏡 Chore
+
+- **release:** V4.0.1 ([75f69d2](https://github.com/xjccc/nuxt-callapp/commit/75f69d2))
+
+### ❤️ Contributors
+
+- Xjccc ([@xjccc](https://github.com/xjccc))
+
+## v4.0.2
+
+[compare changes](https://github.com/xjccc/nuxt-callapp/compare/v4.0.1...v4.0.2)
+
+## v4.0.1
+
+[compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.5.1...v4.0.1)
+
+### 📦 Build
+
+- V1.5.1 ([df41519](https://github.com/xjccc/nuxt-callapp/commit/df41519))
+
 ### ❤️ Contributors
 
 - Xjccc ([@xjccc](https://github.com/xjccc))
