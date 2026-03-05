@@ -68,7 +68,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.6",
     "nuxt": "^4.0.0",
-    "vitest": "^3.2.4"
+    "vitest": "^4.0.18"
   },
   "husky": {
     "hooks": {
