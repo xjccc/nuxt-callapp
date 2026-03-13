@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v4.1.1
+
+[compare changes](https://github.com/xjccc/nuxt-callapp/compare/v4.0.1...v4.1.1)
+
+### 💅 Refactors
+
+- Replace lint-staged to nano-staged ([e3ea351](https://github.com/xjccc/nuxt-callapp/commit/e3ea351))
+
+### 🏡 Chore
+
+- Update pnpm-lock ([1e935cd](https://github.com/xjccc/nuxt-callapp/commit/1e935cd))
+
+### ❤️ Contributors
+
+- Xjccc ([@xjccc](https://github.com/xjccc))
+
 ## v4.0.1
 
 [compare changes](https://github.com/xjccc/nuxt-callapp/compare/v1.5.1...v4.0.1)
