@@ -1,5 +1,28 @@
 # Changelog
 
+## v4.6.0
+
+[compare changes](https://github.com/xjccc/nuxt-callapp/compare/v4.1.1...v4.6.0)
+
+### Build and maintenance
+
+- Update Nuxt and `@nuxt/kit` to 4.6.2, `@nuxt/test-utils` to 4.3.4,
+  Vitest to 5.0.5, and Nuxt DevTools to 4.0.0-beta.6.
+- Update module builder, ESLint and commit tooling; declare TypeScript as a
+  development dependency and allow required native dependency builds in pnpm.
+- Import `useNuxtApp` explicitly in the playground for lint compatibility.
+- Run preparation, lint, type checking, tests, module packaging and the
+  playground production build before creating a release commit or tag.
+
+### Documentation and compatibility
+
+- Document `$useCallApp`, `$createCallApp` and their client-only usage.
+- Keep the existing public API and `callapp-lib` dependency unchanged.
+- Validate the module build, playground production build and a separate Nuxt
+  consumer with Nuxt 4.6.2 and Node.js 26.0.0.
+- `@nuxt/kit` requires Node.js `^20.19.0 || >=22.12.0`; Nuxt 4.6.2 requires
+  `^22.22.3 || ^24.15.0 || >=26.0.0`. Other Nuxt versions are not covered by
+  this release's validation.
 
 ## v4.1.1
 

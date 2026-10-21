@@ -12,6 +12,8 @@
 </template>
 
 <script setup>
+import { useNuxtApp } from '#imports'
+
 const { $createCallApp } = useNuxtApp()
 const clickToCreateInstance = () => {
   const CallApp = $createCallApp({
