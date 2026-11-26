@@ -27,13 +27,13 @@ A nuxt module for [callapp-lib](https://github.com/suanmei/callapp-lib)
 
 ## Compatibility
 
-Version 4.6.0 has been tested with Nuxt 4.6.2 and Node.js 26.0.0.
+The development playground uses Nuxt 4.7.0 and has been tested on Node.js 26.0.0.
+The published 4.6.0 release was tested with Nuxt 4.6.2 on the same Node.js version.
 
 - The `@nuxt/kit` dependency requires Node.js `^20.19.0 || >=22.12.0`.
-- Nuxt 4.6.2 requires Node.js `^22.22.3 || ^24.15.0 || >=26.0.0`.
+- Nuxt 4.6.2 and 4.7.0 require Node.js `^22.22.3 || ^24.15.0 || >=26.0.0`.
 
 Choose a Node.js version supported by both your Nuxt version and `@nuxt/kit`.
-Other Nuxt versions have not been validated for this release.
 
 ## Quick Setup
 
