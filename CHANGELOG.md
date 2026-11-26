@@ -1,5 +1,14 @@
 # Changelog
 
+## v4.7.0
+
+[compare changes](https://github.com/xjccc/nuxt-callapp/compare/v4.6.0...v4.7.0)
+
+- Update `@nuxt/kit` to 4.7.0 and verify the module with Nuxt 4.7.0 on Node.js 26.0.0.
+- Upgrade Nuxt DevTools to 4.2.1, Module Builder to 1.0.4, Test Utils to 4.4.0 and Vitest to 5.1.1.
+- Split the playground into separate actions for opening the app and previewing its deep link.
+- Include the MIT license text in the npm package and run release checks on pull requests and pushes to `main`.
+
 ## v4.6.0
 
 [compare changes](https://github.com/xjccc/nuxt-callapp/compare/v4.1.1...v4.6.0)
