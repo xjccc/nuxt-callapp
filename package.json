@@ -62,16 +62,16 @@
     "@nuxt/module-builder": "^1.0.4",
     "@nuxt/schema": "^4.7.0",
     "@nuxt/test-utils": "^4.4.0",
-    "@types/node": "^26.6.5",
+    "@types/node": "^26.6.10",
     "changelogen": "^0.6.2",
     "commitizen": "^4.3.2",
     "cz-git": "^1.14.0",
-    "eslint": "^10.13.0",
+    "eslint": "^10.15.0",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
     "nuxt": "^4.7.0",
     "typescript": "^5.9.3",
-    "vitest": "^5.1.1"
+    "vitest": "^5.1.2"
   },
   "husky": {
     "hooks": {
